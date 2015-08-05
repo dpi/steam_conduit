@@ -4,6 +4,9 @@ Copyright Daniel Phin (@dpi) 2015
 
 REST server for a Steam client.
 
+[![Version](https://img.shields.io/npm/v/steam_conduit.svg)](https://www.npmjs.com/package/steam_conduit)
+[![Dependency Status](https://david-dm.org/dpi/steam_conduit.svg)](https://david-dm.org/dpi/steam_conduit)
+
 # License
 
 This program is free software; you can redistribute it and/or
@@ -19,13 +22,21 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
+# Installation
+
+```bash
+git glone git@github.com:dpi/steam_conduit.git steam_conduit
+cd steam_conduit
+npm update
+```
+
 # Configuration
 
 ## Authentication
 
  1. Delete _sentry_ file if it exists from a previous run. Do not delete if you
     do not wish to re-initiate a new login session.
- 2. Copy _config.json.defaults_ to _config.json_.
+ 2. Copy _config.defaults.json_ to _config.json_.
  3. Edit _config.json_, set __username__ and __password__.
  4. Run server. Server will error out. You should receive a Steam authentication
     code in your email inbox.
