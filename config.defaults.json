@@ -1,0 +1,10 @@
+{
+  "port": 8080,
+  "steam": {
+    "username": "",
+    "password": "",
+    "auth": "",
+    "nickname": "",
+    "game": ""
+  }
+}

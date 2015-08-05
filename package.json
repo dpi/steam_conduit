@@ -1,0 +1,34 @@
+{
+  "name": "steam_conduit",
+  "version": "0.0.1",
+  "dependencies": {
+    "steam": "~1.0.0",
+    "restify": "~3.0.0",
+    "underscore": "~1.8.0"
+  },
+  "description": "Steam Conduit",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpi/steam_conduit.git"
+  },
+  "keywords": [
+    "steam",
+    "valve",
+    "steampowered",
+    "steamcommunity",
+    "rest",
+    "server",
+    "drupal"
+  ],
+  "author": "Daniel Phin <pro@danielph.in> (http://dpi.id.au)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dpi/steam_conduit/issues"
+  },
+  "homepage": "https://github.com/dpi/steam_conduit#readme"
+}
