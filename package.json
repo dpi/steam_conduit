@@ -1,8 +1,8 @@
 {
   "name": "steam_conduit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
-    "steam": "~1.0.0",
+    "steam": "~1.1.0",
     "restify": "~3.0.0",
     "underscore": "~1.8.0"
   },

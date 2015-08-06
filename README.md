@@ -25,7 +25,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 # Installation
 
 ```bash
-git glone git@github.com:dpi/steam_conduit.git steam_conduit
+git glone https://github.com/dpi/steam_conduit.git steam_conduit
 cd steam_conduit
 npm update
 ```
